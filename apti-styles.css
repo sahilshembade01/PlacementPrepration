@@ -1,0 +1,41 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.a{
+    background: linear-gradient(to right,deeppink,purple);
+    
+}
+
+/* Main Content */
+.content {
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    color: #333;
+    font-size: 55px;
+}
+h2{
+    color: #333;
+    font-size: 30px;
+}
+section#syllabus ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}

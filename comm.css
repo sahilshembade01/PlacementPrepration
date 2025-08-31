@@ -1,0 +1,137 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: black;
+    font-size: 55px;
+
+}
+h2{
+    color: black;
+    font-size: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+header {
+    background:linear-gradient(to right,deeppink,purple);
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Content Section */
+.content {
+    padding: 40px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button.tip-btn {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin: 20px auto;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button.tip-btn:hover {
+    background-color: #45a049;
+}
+
+.tips {
+    display: none;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.tips ul {
+    list-style: none;
+}
+
+.tips li {
+    margin: 10px 0;
+}
+
+.tips h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+.dos-donts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.dos, .donts {
+    width: 45%;
+}
+
+.dos h3, .donts h3 {
+    color: #4CAF50;
+}
+
+.dos ul, .donts ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.dos li, .donts li {
+    margin: 10px 0;
+}

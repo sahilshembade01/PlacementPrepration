@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Group Discussion Forum for Placement Preparation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fc;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+       
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        h2 {
+            color: #333;
+        }
+        .discussion-container {
+            margin-top: 20px;
+        }
+        .discussion-item {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-radius: 8px;
+        }
+        .discussion-item button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .discussion-item button:hover {
+            background-color: #45a049;
+        }
+        .join-discussion {
+            margin-top: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 0px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1> PlacementPrep: Group Discussion</h1>
+    <p>Prepare for your group discussions with peers, gain insights, and refine your skills!</p>
+</header>
+
+
+
+<section id="topics">
+    <h2>Discussion Topics</h2>
+    <div class="discussion-container">
+        <div class="discussion-item">
+            <h3> Importance of Technology </h3>
+           <button><a href="https://www.simplilearn.com/importance-of-technology-article">Join Discussion</button></a>
+        </div>
+        <div class="discussion-item">
+            <h3>The Role of Artificial Intelligence in the Future of Work</h3>
+            <button><a href="https://www.mbauniverse.com/group-discussion/topic/business-economy/future-of-artificial-intelligence">Join Discussion</button></a>
+        </div>
+        <div class="discussion-item">
+            <h3>Work from Home vs Office: The Future of Workspaces</h3>
+            <button><a href="https://mbagdtopics.com/work-from-home-vs-work-from-office-which-is-better/">Join Discussion</button></a>
+        </div>
+        <div class="discussion-item">
+            <h3>The  Society and Culture</h3>
+            <button><a href="https://www.britannica.com/place/India/Society-and-culture">Join Discussion</button></a>
+        </div>
+        <div class="discussion-item">
+            <h3>5G in India</h3>
+            <button><a href="https://www.groupdiscussionideas.com/5g-in-india/">Join Discussion</button></a>
+        </div>
+    </div>
+</section>
+
+<section id="tips">
+    <h2>Discussion Tips for Placement Group Discussions</h2>
+    <ul>
+        <li>Be a Good Listener - Focus on others' points before responding.</li>
+        <li>Stay Relevant and to the Point - Avoid straying from the topic.</li>
+        <li>Speak Confidently - Express your thoughts clearly.</li>
+        <li>Avoid Interrupting - Wait your turn and listen attentively.</li>
+        <li>Maintain Body Language - Eye contact and good posture matter.</li>
+        <li>Take Initiative - Contribute and steer the conversation when necessary.</li>
+        <li>Respect Everyone’s Opinion - Disagree politely with reasons.</li>
+    </ul>
+</section>
+
+<section id="questions">
+    <h2>Important Questions for Group Discussions</h2>
+    <ul>
+        <li>What qualities make a good leader?</li>
+        <li>How important is team management for organizational success?</li>
+        <li>What are the key challenges of gender equality in the workplace?</li>
+        <li>How should society address the issue of rising mental health concerns?</li>
+        <li>Will automation replace jobs or create new opportunities?</li>
+        <li>How can businesses ensure they stay competitive in the digital era?</li>
+        <li>How do personal values align with professional growth?</li>
+    </ul>
+</section>
+
+
+
+<footer>
+    <p>© 2024 PlacementPrep. All the best.</p>
+</footer>
+
+<script>
+    function joinDiscussion(topic) {
+        alert("You joined the discussion on: " + topic);
+    }
+
+    function submitDiscussion() {
+        const topic = document.getElementById("discussion-name").value;
+        if (topic) {
+            alert("New discussion topic submitted: " + topic);
+        } else {
+            alert("Please enter a topic to start a discussion.");
+        }
+    }
+</script>
+
+</body>
+</html>
